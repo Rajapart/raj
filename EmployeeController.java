@@ -35,9 +35,5 @@ public class EmployeeController {
  public String deletebyid(@PathVariable int a) {
 	 return empsr.deletebyid(a);
  }
- @GetMapping("/lists")
-   public List<Employee> viewList() {
-   return empsr.viewList();
- }
-	
+
 }
